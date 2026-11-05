@@ -1,0 +1,45 @@
+{
+  "name": "@liberusoftware/module-boilerplate-nextjs",
+  "version": "0.1.0-alpha.0",
+  "description": "Liberu Next.js \u00b7 React presentation module foundation",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "next": "^16.4.0",
+    "react": "^19.3.0"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=26 <27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liberusoftware/module-boilerplate-nextjs.git"
+  }
+}
