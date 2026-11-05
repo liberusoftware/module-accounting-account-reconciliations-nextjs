@@ -1,0 +1,15 @@
+{
+  "repository": "module-accounting-account-reconciliations-nextjs",
+  "capabilityKey": "liberusoftware/module-accounting-account-reconciliations",
+  "presentation": "next-react",
+  "package": "@liberusoftware/module-accounting-account-reconciliations-nextjs",
+  "foundation": "module-boilerplate-nextjs",
+  "foundationCommit": "f36c3c383b38a8ebedb343dffa24cf64bec1817b",
+  "canonicalPlan": "projects/accounting/nextjs/account-reconciliations.md",
+  "presentationPlan": "projects/accounting/nextjs/account-reconciliations.md",
+  "identityReviewRequired": false,
+  "status": "skeleton",
+  "documentedConsumerScopes": [
+    "accounting"
+  ]
+}
